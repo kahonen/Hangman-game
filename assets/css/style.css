@@ -1,0 +1,17 @@
+.header {
+	color: #FF0080;
+	padding: 20px;
+	background: white;  
+	margin-top: -10px;
+	text-align: center;
+}
+
+.game {
+	border: 2px solid rgb(43, 42, 42);
+	padding: 100px;
+	font-weight: bold;
+	color: #FF0080;
+	font-size: 25px;
+    margin-top: 32px;
+    background: white;
+}

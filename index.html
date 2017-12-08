@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF 8">
+	<html lang="en">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+	 crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Golden Girls Hangman</title>
+
+	</html>
+</head>
+
+</html>
+
+<body>
+	<div class="header">
+		<img src="assets/images/goldengirlstitle.png" height="100px">
+		<div id="audiocontainer">
+				
+						<input type="button" value="PLAY" onclick="play()">
+						<audio id="audio" src="assets/music/GoldenGirls.mp3"></audio>
+				
+					</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6">
+
+				<img src="assets/images/goldengirlsvector.jpg" />
+
+
+
+
+			</div>
+
+			<div class="col-lg-6 game">
+				<div class="container">
+
+					<p class="text box">Guesses Left:
+						<span id="guesses-left"></span>
+					</p>
+					<p>Wrong Guesses:
+						<span id="wrong-guesses"></span>
+					</p>
+					<p>Wins:
+						<span id="win-counter"></span>
+					</p>
+					<p>Losses:
+						<span id="loss-counter"></span>
+					</p>
+					<h3 id="word-blank"></h3>
+
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+
+	<script src="assets/javascript/games.js"></script>
+
+</body>
+
+</html>
+
+</body>
